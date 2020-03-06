@@ -1,7 +1,7 @@
 # Github Actions
 Quickstart:
 * copy and paste `.github/` into your own projects
-* merge in the commit with this inclusion of this folder to enable the actions
+* merge in the commit with this inclusion to enable the actions
 
 > Optional: read below for more configuration options available for you.
 
