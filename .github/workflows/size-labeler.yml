@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: size-label
-        uses: "pascalgn/size-label-action@d909487e1a0057d85c638f1ddefdb315a63d2e98"
+        uses: "pascalgn/size-label-action@v0.2.1"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           IGNORED: ".*\n!.gitignore\ngo.sum\ngo.mod\ntestdata/**\ngenerated/**"
