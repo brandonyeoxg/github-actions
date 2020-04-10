@@ -1,4 +1,4 @@
-name-template: 'v$NEXT_PATCH_VERSION 🌈'
+name-template: 'v$NEXT_PATCH_VERSION :rainbow:'
 tag-template: 'v$NEXT_PATCH_VERSION'
 categories:
   - title: ':sparkles: Features'
@@ -10,9 +10,9 @@ categories:
       - 'docs'
       - 'refactor'
       - 'test'
+      - 'ci'
   - title: ':rocket: Improvements'
     labels:
-      - 'ci'
       - 'build'
       - 'performance'
 
